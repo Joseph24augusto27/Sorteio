@@ -11,6 +11,13 @@
     outline: none;
 }
 
+body{
+    width: 100vh;
+    height: 100vh;
+}
+
+
+
 .logo-img{
      width: 450px;
      height: 450px;
@@ -72,4 +79,19 @@ button:hover{
 
 button:active{
     background-color: rgb(129, 48, 48);
+}
+
+
+@media screen and (max-width: 750px) {
+    .logo-img{
+        position: relative;
+        right: 500px;
+        width: 350px;
+        height: 350px;
+    }
+   
+
+
+
+
 }
